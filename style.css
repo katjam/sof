@@ -1,0 +1,111 @@
+
+
+
+body {
+background: #dad09c url(Images/greenbrownbg3.gif) repeat-x top;
+color:#006600;
+margin: 0px;
+padding: 0px;
+font-family: 'Times New Roman', 'Times', serif;
+text-align: center;
+}
+
+#content {
+margin: 10px auto; 
+padding: 0 0 0 0;
+background: url(Images/parch2.jpg);
+width: 600px;
+}
+
+#headerindex {
+padding: 25px 0 20px 0;
+}
+
+#header {
+margin: 0 auto;
+padding: 15px;
+}
+
+#main {
+
+}
+
+#footer {
+padding: 50px 0 60px 0;
+}
+
+img {
+border: none;
+}
+
+p.small {
+color: #000000;
+font-size: 13px;
+}
+
+p.green {
+color: #336633;
+}
+
+a {
+color: #336633;
+text-decoration: none;
+}
+
+a:hover {
+color: #339966;
+text-decoration: none;
+}
+
+a:active {
+border: none;
+text-decoration: none;
+outline: none;
+}
+
+a:visited {
+border: none;
+text-decoration:none;
+outline: none;
+}
+
+a.playSong {
+text-decoration: none;
+background: url(Images/note.gif) no-repeat right;
+padding: 0 15px 0 0;
+}
+
+#jplayer_play  {
+margin-left: 10px;
+background: url('Images/play.png') no-repeat; 
+}
+
+#jplayer_stop  { 
+background: none;
+width: 17px;
+cursor: pointer;
+}
+
+img.stopbutton {
+
+}
+
+
+span.note {
+background: url(Images/note.gif) no-repeat left;
+padding: 0 0 0 15px;
+}
+
+p.center{
+text-align: center;
+}
+
+p.left{
+text-align: left;
+}
+
+table {
+font-size: 13px;
+color: #000000;
+}
+

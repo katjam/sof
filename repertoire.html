@@ -47,7 +47,8 @@ $(document).ready(function(){
 	var currentTrack = 0;
  
 	var playList = [
-		{ title: "Amazing Grace", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/AmazingGrace.mp3" },
+		{ title: "Amazing Grace - unaccompanied", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/AmazingGrace.mp3" },
+		{ title: "Amazing Grace - accompanied", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/ImogenAmazingGrace.mp3" },
 		{ title: "Ave Maria", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/AveMariaBach.mp3" },
 		{ title: "Ave Maria", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/AveMariaSchubert.mp3" },
 		{ title: "Ave Verum", artist: " ", file: "http://www.capriolfilms.co.uk/media/music/AveVerum.mp3" },
@@ -153,7 +154,11 @@ following repertoire guide, based on the most often requested items, may be help
 		<td width="150">H.F. Lyte</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="0" href="#">Amazing Grace</a><!--0--></td>
+		<td><a class="playSong" rel="0" href="#">Amazing Grace (Unaccompanied)</a><!--0--></td>
+		<td>John Newton</td>
+	</tr>
+	<tr>
+		<td><a class="playSong" rel="1" href="#">Amazing Grace (Accompanied)</a><!--1--></td>
 		<td>John Newton</td>
 	</tr>
 	<tr>
@@ -161,27 +166,23 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Manning Sherwin</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="1" href="#">Ave Maria</a><!--1--></td>
+		<td><a class="playSong" rel="2" href="#">Ave Maria</a><!--2--></td>
 		<td>Bach/Gounod</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="2" href="#">Ave Maria</a><!--2--></td>
+		<td><a class="playSong" rel="3" href="#">Ave Maria</a><!--3--></td>
 		<td>Franz Schubert</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="3" href="#">Ave Verum</a><!--3--></td>
+		<td><a class="playSong" rel="4" href="#">Ave Verum</a><!--4--></td>
 		<td>Mozart</td>
-	</tr>
-	<tr>
-		<td>Bill</td>
-		<td>Wodehouse/Kern</td>
 	</tr>
 	<tr>
 		<td>Come Unto Him</td>
 		<td>Handel</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="4" href="#">Danny Boy (The Londonderry Air)</a><!--4--></td>
+		<td><a class="playSong" rel="5" href="#">Danny Boy (The Londonderry Air)</a><!--5--></td>
 		<td>F.E. Wetherly</td>
 	</tr>
 	<tr>
@@ -217,15 +218,15 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Jan Struther</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="5" href="#">Love Changes Everything</a><!--5--></td>
+		<td><a class="playSong" rel="6" href="#">Love Changes Everything</a><!--6--></td>
 		<td>Andrew Lloyd Webber</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="6" href="#">On Eagles&#39; Wings</a><!--6--></td>
+		<td><a class="playSong" rel="7" href="#">On Eagles&#39; Wings</a><!--7--></td>
 		<td>Joncas</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="7" href="#">O Rest In The Lord</a><!--7--></td>
+		<td><a class="playSong" rel="8" href="#">O Rest In The Lord</a><!--8--></td>
 		<td>Mendelssohn</td>
 	</tr>
 	<tr>
@@ -233,7 +234,7 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Harburg/Arlen</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="8" href="#">Panis Angelicus</a><!--8--></td>
+		<td><a class="playSong" rel="9" href="#">Panis Angelicus</a><!--9--></td>
 		<td>Cesar Franck</td>
 	</tr>
 	<tr>
@@ -245,15 +246,15 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Andrew Lloyd Webber</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="9" href="#">Somewhere</a><br /><!--9--></td>
+		<td><a class="playSong" rel="10" href="#">Somewhere</a><br /><!--10--></td>
 		<td>Bernstein/Sondheim</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="10" href="#">Somewhere Beyond The Stars</a><!--10--></td>
+		<td><a class="playSong" rel="11" href="#">Somewhere Beyond The Stars</a><!--11--></td>
 		<td>Pelosi/Powers/Prisker</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="11" href="#">Song Of Farewell</a><!--11--></td>
+		<td><a class="playSong" rel="12" href="#">Song Of Farewell</a><!--12--></td>
 		<td>Ernest Sands</td>
 	</tr>
 	<tr>
@@ -277,7 +278,7 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Geo Bennard</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="12" href="#">The Rose</a><!--12--></td>
+		<td><a class="playSong" rel="13" href="#">The Rose</a><!--13--></td>
 		<td>Amanda McBroom</td>
 	</tr>
 	<tr>
@@ -297,11 +298,11 @@ following repertoire guide, based on the most often requested items, may be help
 		<td>Parker/Charles</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="13" href="#">You Raise Me Up</a><!--13--></td>
+		<td><a class="playSong" rel="14" href="#">You Raise Me Up</a><!--14--></td>
 		<td>Lovland/Graham</td>
 	</tr>
 	<tr>
-		<td><a class="playSong" rel="14" href="#">You&#39;ll Never Walk Alone</a></TD><!--14--></td>
+		<td><a class="playSong" rel="15" href="#">You&#39;ll Never Walk Alone</a></TD><!--15--></td>
 		<td>Rodgers/Hammerstein</td>
 	</tr>
 <TR><TD COLSPAN="2" HEIGHT="111"><P>&nbsp;</P><TABLE WIDTH="430" BORDER="0" CELLSPACING="0" CELLPADDING="0"><TR VALIGN="MIDDLE" ALIGN="CENTER"><TD><DIV ALIGN="CENTER"><P ALIGN="LEFT"><FONT FACE="Times New Roman, Times, serif" SIZE="2"><A HREF="index.html" ONMOUSEOUT="MM_swapImgRestore()" ONMOUSEOVER="MM_swapImage('Homepage','','Images/home2.gif',1);MM_displayStatusMsg('Return to Homepage');return document.MM_returnValue"><IMG NAME="Homepage" BORDER="0" SRC="Images/home.gif" WIDTH="163" HEIGHT="36" ALT="Back to Home Page"></A></FONT></P></DIV></TD><TD><DIV ALIGN="CENTER"><P ALIGN="LEFT"><FONT FACE="Times New Roman, Times, serif" SIZE="2"><A HREF="mailto:info%40s%6f%6e%67%73offare%77el&#108;%2ec%6f&#46;uk?subject=Enquiry%20from%20website" ONMOUSEOUT="MM_swapImgRestore()" ONMOUSEOVER="MM_swapImage('email','','Images/email2.gif',1);MM_displayStatusMsg('Email Us Now!');return document.MM_returnValue"><IMG NAME="email" BORDER="0" SRC="Images/email.gif" WIDTH="163" HEIGHT="36" ALT="Email us now"></A></FONT></P></DIV></TD></TR></TABLE></TD></TR></TABLE>

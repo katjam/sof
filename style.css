@@ -14,7 +14,8 @@ text-align: center;
 margin: 10px auto; 
 padding: 0 0 0 0;
 background: url(Images/parch2.jpg);
-width: 600px;
+min-height: 900px;
+width: 800px;
 }
 
 #headerindex {
